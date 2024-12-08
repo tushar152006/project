@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Absorption and Emission Spectrum</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Absorption and Emission Spectrum</h1>
+    </header>
+    <main>
+        <section>
+            <h2>What is the Absorption and Emission Spectrum?</h2>
+            <p>The absorption spectrum shows the wavelengths of light absorbed by a material, while the emission spectrum shows the wavelengths emitted by a material. These spectra are fundamental to understanding atomic and molecular properties.</p>
+            <h3>Key Formulas:</h3>
+            <ul>
+                <li><strong>Planck's Equation:</strong> \( E = h \nu \), where \( E \) is energy, \( h \) is Planck's constant (\(6.626 \times 10^{-34} \, \text{Js}\)), and \( \nu \) is frequency.</li>
+                <li><strong>Frequency-Wavelength Relation:</strong> \( c = \lambda \nu \), where \( c \) is the speed of light (\(3 \times 10^8 \, \text{m/s}\)), \( \lambda \) is wavelength, and \( \nu \) is frequency.</li>
+                <li><strong>Rydberg Formula:</strong> \( \frac{1}{\lambda} = R \left( \frac{1}{n_1^2} - \frac{1}{n_2^2} \right) \), where \( R \) is the Rydberg constant (\(1.097 \times 10^7 \, \text{m}^{-1}\)), and \( n_1, n_2 \) are quantum numbers.</li>
+            </ul>
+        </section>
+        <section>
+            <h2>Calculate Energy, Frequency, or Wavelength</h2>
+            <form id="calculationForm">
+                <label for="choice">Choose a calculation:</label>
+                <select id="choice" required>
+                    <option value="energy">Energy (E)</option>
+                    <option value="frequency">Frequency (ν)</option>
+                    <option value="wavelength">Wavelength (λ)</option>
+                </select>
+                <div id="inputs">
+                    <!-- Dynamic Inputs Here -->
+                </div>
+                <button type="submit">Calculate</button>
+            </form>
+            <div id="result"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
